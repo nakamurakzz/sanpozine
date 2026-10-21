@@ -105,10 +105,24 @@ footer {
 footer a {
   margin-right: 18px;
 }
+header {
+  position: relative;
+}
+header .language {
+  position: absolute;
+  right: max(20px, calc((100% - 720px) / 2 + 20px));
+  top: 18px;
+  padding: 0;
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: var(--green);
+}
     </style>
   </head>
   <body>
-    <header><a href="../">さんぽZINE</a></header>
+    <header><a href="../">さんぽZINE</a><a class="language" href="../en/privacy/" hreflang="en" lang="en">English</a></header>
     <main>
       <h1>プライバシーポリシー</h1>
       <p class="lead">制定日：2026年10月20日</p>
